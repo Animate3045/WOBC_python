@@ -51,9 +51,10 @@ def passwordTest():
         passwordTest()
     else:
         print('Password accepted. Please do not forget your password.')
+        sleep(5)
+        print('Password Test function will now shutdown. Thank you.')
+        sleep(5)
         exit()
 
 #set the function to autorun
-pword = ""
-while not pword:
-    passwordTest()
+passwordTest()
